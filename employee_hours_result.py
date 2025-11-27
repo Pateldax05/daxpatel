@@ -6,3 +6,4 @@ class EmployeeHoursResult(models.TransientModel):
     _description = "Display result days"
 
     result_html = fields.Html(readonly=True)
+    bsjd = fields.Html(readonly=True)
